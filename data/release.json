@@ -1,0 +1,614 @@
+{
+  "revision": "release-1",
+  "cutoff": "2026-11-14T23:59:59+08:00",
+  "tables": {
+    "margins": [
+      {
+        "window": "evening",
+        "district": "north",
+        "direction": "in",
+        "count": 55,
+        "tolerance": 2
+      },
+      {
+        "window": "evening",
+        "district": "north",
+        "direction": "out",
+        "count": 61,
+        "tolerance": 2
+      },
+      {
+        "window": "evening",
+        "district": "east",
+        "direction": "in",
+        "count": 45,
+        "tolerance": 2
+      },
+      {
+        "window": "evening",
+        "district": "east",
+        "direction": "out",
+        "count": 65,
+        "tolerance": 2
+      },
+      {
+        "window": "evening",
+        "district": "south",
+        "direction": "in",
+        "count": 42,
+        "tolerance": 2
+      },
+      {
+        "window": "evening",
+        "district": "south",
+        "direction": "out",
+        "count": 68,
+        "tolerance": 2
+      },
+      {
+        "window": "evening",
+        "district": "west",
+        "direction": "in",
+        "count": 71,
+        "tolerance": 2
+      },
+      {
+        "window": "evening",
+        "district": "west",
+        "direction": "out",
+        "count": 57,
+        "tolerance": 2
+      },
+      {
+        "window": "late",
+        "district": "north",
+        "direction": "in",
+        "count": 71,
+        "tolerance": 2
+      },
+      {
+        "window": "late",
+        "district": "north",
+        "direction": "out",
+        "count": 47,
+        "tolerance": 2
+      },
+      {
+        "window": "late",
+        "district": "east",
+        "direction": "in",
+        "count": 42,
+        "tolerance": 2
+      },
+      {
+        "window": "late",
+        "district": "east",
+        "direction": "out",
+        "count": 53,
+        "tolerance": 2
+      },
+      {
+        "window": "late",
+        "district": "south",
+        "direction": "in",
+        "count": 43,
+        "tolerance": 2
+      },
+      {
+        "window": "late",
+        "district": "south",
+        "direction": "out",
+        "count": 67,
+        "tolerance": 2
+      },
+      {
+        "window": "late",
+        "district": "west",
+        "direction": "in",
+        "count": 45,
+        "tolerance": 2
+      },
+      {
+        "window": "late",
+        "district": "west",
+        "direction": "out",
+        "count": 42,
+        "tolerance": 2
+      }
+    ],
+    "paths": [
+      {
+        "window": "evening",
+        "origin": "north",
+        "destination": "east",
+        "sample_count": 0,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "evening",
+        "origin": "north",
+        "destination": "south",
+        "sample_count": 2,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "evening",
+        "origin": "north",
+        "destination": "west",
+        "sample_count": 6,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "evening",
+        "origin": "east",
+        "destination": "north",
+        "sample_count": 3,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "evening",
+        "origin": "east",
+        "destination": "south",
+        "sample_count": 8,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "evening",
+        "origin": "east",
+        "destination": "west",
+        "sample_count": 3,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "evening",
+        "origin": "south",
+        "destination": "north",
+        "sample_count": 5,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "evening",
+        "origin": "south",
+        "destination": "east",
+        "sample_count": 1,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "evening",
+        "origin": "south",
+        "destination": "west",
+        "sample_count": 6,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "evening",
+        "origin": "west",
+        "destination": "north",
+        "sample_count": 8,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "evening",
+        "origin": "west",
+        "destination": "east",
+        "sample_count": 10,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "evening",
+        "origin": "west",
+        "destination": "south",
+        "sample_count": 10,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "late",
+        "origin": "north",
+        "destination": "east",
+        "sample_count": 2,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "late",
+        "origin": "north",
+        "destination": "south",
+        "sample_count": 4,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "late",
+        "origin": "north",
+        "destination": "west",
+        "sample_count": 7,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "late",
+        "origin": "east",
+        "destination": "north",
+        "sample_count": 0,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "late",
+        "origin": "east",
+        "destination": "south",
+        "sample_count": 11,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "late",
+        "origin": "east",
+        "destination": "west",
+        "sample_count": 0,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "late",
+        "origin": "south",
+        "destination": "north",
+        "sample_count": 2,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "late",
+        "origin": "south",
+        "destination": "east",
+        "sample_count": 7,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "late",
+        "origin": "south",
+        "destination": "west",
+        "sample_count": 1,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "late",
+        "origin": "west",
+        "destination": "north",
+        "sample_count": 6,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "late",
+        "origin": "west",
+        "destination": "east",
+        "sample_count": 1,
+        "capture_rate": 0.2
+      },
+      {
+        "window": "late",
+        "origin": "west",
+        "destination": "south",
+        "sample_count": 7,
+        "capture_rate": 0.2
+      }
+    ],
+    "links": [
+      {
+        "window": "evening",
+        "origin": "north",
+        "destination": "north",
+        "allowed": true,
+        "minutes": 13
+      },
+      {
+        "window": "evening",
+        "origin": "north",
+        "destination": "east",
+        "allowed": true,
+        "minutes": 8
+      },
+      {
+        "window": "evening",
+        "origin": "north",
+        "destination": "south",
+        "allowed": true,
+        "minutes": 5
+      },
+      {
+        "window": "evening",
+        "origin": "north",
+        "destination": "west",
+        "allowed": true,
+        "minutes": 8
+      },
+      {
+        "window": "evening",
+        "origin": "east",
+        "destination": "north",
+        "allowed": true,
+        "minutes": 9
+      },
+      {
+        "window": "evening",
+        "origin": "east",
+        "destination": "east",
+        "allowed": true,
+        "minutes": 22
+      },
+      {
+        "window": "evening",
+        "origin": "east",
+        "destination": "south",
+        "allowed": true,
+        "minutes": 6
+      },
+      {
+        "window": "evening",
+        "origin": "east",
+        "destination": "west",
+        "allowed": true,
+        "minutes": 10
+      },
+      {
+        "window": "evening",
+        "origin": "south",
+        "destination": "north",
+        "allowed": true,
+        "minutes": 6
+      },
+      {
+        "window": "evening",
+        "origin": "south",
+        "destination": "east",
+        "allowed": true,
+        "minutes": 7
+      },
+      {
+        "window": "evening",
+        "origin": "south",
+        "destination": "south",
+        "allowed": true,
+        "minutes": 10
+      },
+      {
+        "window": "evening",
+        "origin": "south",
+        "destination": "west",
+        "allowed": true,
+        "minutes": 17
+      },
+      {
+        "window": "evening",
+        "origin": "west",
+        "destination": "north",
+        "allowed": true,
+        "minutes": 24
+      },
+      {
+        "window": "evening",
+        "origin": "west",
+        "destination": "east",
+        "allowed": true,
+        "minutes": 18
+      },
+      {
+        "window": "evening",
+        "origin": "west",
+        "destination": "south",
+        "allowed": true,
+        "minutes": 22
+      },
+      {
+        "window": "evening",
+        "origin": "west",
+        "destination": "west",
+        "allowed": true,
+        "minutes": 12
+      },
+      {
+        "window": "late",
+        "origin": "north",
+        "destination": "north",
+        "allowed": true,
+        "minutes": 15
+      },
+      {
+        "window": "late",
+        "origin": "north",
+        "destination": "east",
+        "allowed": true,
+        "minutes": 6
+      },
+      {
+        "window": "late",
+        "origin": "north",
+        "destination": "south",
+        "allowed": false,
+        "minutes": 7
+      },
+      {
+        "window": "late",
+        "origin": "north",
+        "destination": "west",
+        "allowed": true,
+        "minutes": 17
+      },
+      {
+        "window": "late",
+        "origin": "east",
+        "destination": "north",
+        "allowed": true,
+        "minutes": 19
+      },
+      {
+        "window": "late",
+        "origin": "east",
+        "destination": "east",
+        "allowed": true,
+        "minutes": 17
+      },
+      {
+        "window": "late",
+        "origin": "east",
+        "destination": "south",
+        "allowed": true,
+        "minutes": 6
+      },
+      {
+        "window": "late",
+        "origin": "east",
+        "destination": "west",
+        "allowed": true,
+        "minutes": 21
+      },
+      {
+        "window": "late",
+        "origin": "south",
+        "destination": "north",
+        "allowed": true,
+        "minutes": 17
+      },
+      {
+        "window": "late",
+        "origin": "south",
+        "destination": "east",
+        "allowed": true,
+        "minutes": 16
+      },
+      {
+        "window": "late",
+        "origin": "south",
+        "destination": "south",
+        "allowed": true,
+        "minutes": 24
+      },
+      {
+        "window": "late",
+        "origin": "south",
+        "destination": "west",
+        "allowed": true,
+        "minutes": 17
+      },
+      {
+        "window": "late",
+        "origin": "west",
+        "destination": "north",
+        "allowed": true,
+        "minutes": 14
+      },
+      {
+        "window": "late",
+        "origin": "west",
+        "destination": "east",
+        "allowed": true,
+        "minutes": 9
+      },
+      {
+        "window": "late",
+        "origin": "west",
+        "destination": "south",
+        "allowed": true,
+        "minutes": 5
+      },
+      {
+        "window": "late",
+        "origin": "west",
+        "destination": "west",
+        "allowed": true,
+        "minutes": 18
+      }
+    ],
+    "confusion": [
+      {
+        "observed": "north",
+        "actual": "north",
+        "probability": 0.85
+      },
+      {
+        "observed": "north",
+        "actual": "east",
+        "probability": 0.05
+      },
+      {
+        "observed": "north",
+        "actual": "south",
+        "probability": 0.05
+      },
+      {
+        "observed": "north",
+        "actual": "west",
+        "probability": 0.05
+      },
+      {
+        "observed": "east",
+        "actual": "north",
+        "probability": 0.05
+      },
+      {
+        "observed": "east",
+        "actual": "east",
+        "probability": 0.85
+      },
+      {
+        "observed": "east",
+        "actual": "south",
+        "probability": 0.05
+      },
+      {
+        "observed": "east",
+        "actual": "west",
+        "probability": 0.05
+      },
+      {
+        "observed": "south",
+        "actual": "north",
+        "probability": 0.05
+      },
+      {
+        "observed": "south",
+        "actual": "east",
+        "probability": 0.05
+      },
+      {
+        "observed": "south",
+        "actual": "south",
+        "probability": 0.85
+      },
+      {
+        "observed": "south",
+        "actual": "west",
+        "probability": 0.05
+      },
+      {
+        "observed": "west",
+        "actual": "north",
+        "probability": 0.05
+      },
+      {
+        "observed": "west",
+        "actual": "east",
+        "probability": 0.05
+      },
+      {
+        "observed": "west",
+        "actual": "south",
+        "probability": 0.05
+      },
+      {
+        "observed": "west",
+        "actual": "west",
+        "probability": 0.85
+      }
+    ]
+  },
+  "settings": {
+    "maximum_refusal_probability": 0.05,
+    "balance_tolerance": 20,
+    "minimum_same_edges": 4,
+    "registration": {
+      "primary_outcome": "awareness_per_eligible",
+      "spillover_exposure": "neighbor_treated_fraction",
+      "maximum_missing_fraction": 0.2
+    },
+    "primary_tables": [
+      "margins",
+      "paths",
+      "links",
+      "confusion"
+    ]
+  }
+}
